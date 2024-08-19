@@ -7,7 +7,7 @@ import { Character } from './character';
   providedIn: 'root'
 })
 export class CharacterService {
-  private apiUrl = 'http://localhost:8080/characters'; // Update with your API URL
+  private apiUrl = 'http://localhost:8080/characters';
 
   constructor(private http: HttpClient) {}
 
@@ -15,5 +15,4 @@ export class CharacterService {
     return this.http.get<Character[]>(this.apiUrl);
   }
 
-  // Add other methods for CRUD operations as needed
 }
