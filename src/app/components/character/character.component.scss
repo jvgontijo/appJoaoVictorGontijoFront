@@ -1,0 +1,69 @@
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Table header styling */
+  .table thead {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .table th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table body styling */
+  .table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .table td {
+    padding: 10px;
+  }
+  
+  /* Table row hover effect */
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* List styling for weapons */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  
+  /* Appearance section styling */
+  .appearance-section {
+    margin: 10px 0;
+  }
+  
+  .appearance-section p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
